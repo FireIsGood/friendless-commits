@@ -15,9 +15,11 @@ git config --global alias.yolo '!git commit -m "$(curl -s https://friendlesscomm
 
 Heavily inspired by [What The Commit](https://github.com/ngerakines/commitment).
 
+## For developers
+
 <details>
 
-<summary>For developers</summary>
+<summary>How to run locally or develop...</summary>
 
 ## Running Locally
 
