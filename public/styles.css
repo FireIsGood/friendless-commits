@@ -1,0 +1,47 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+body > header,
+body > main,
+body > footer {
+  max-width: 960px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  > * {
+    margin: 0;
+  }
+}
+
+/* Specific styles */
+a.no-underline:not(:hover) {
+  text-decoration: none;
+}
+
+.faded {
+  color: var(--pico-muted-color);
+}
+
+.commit-area {
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.commit {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: var(--pico-color);
+  font-size: 1.4rem;
+}
