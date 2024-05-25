@@ -45,4 +45,7 @@ bun run dev
 
 ## Contributing
 
-Add to the [messages.ts](src/assets/messages.ts) in the corresponding category.
+Contributions of code or commit messages are welcome!
+
+You can add messages to [messages.ts](src/assets/messages.ts) in the corresponding category. For issues with the code,
+feel free to make issues or pull requests.
