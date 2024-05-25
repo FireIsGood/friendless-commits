@@ -12,4 +12,4 @@ bun run dev
 
 ## Contributing
 
-Add to the [mesages.ts](src/assets/messages.ts) in the corresponding category.
+Add to the [messages.ts](src/assets/messages.ts) in the corresponding category.
