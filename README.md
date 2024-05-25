@@ -1,6 +1,6 @@
 # Friendless Commits
 
-> [!INFORMATION]  
+> [!IMPORTANT]  
 > I haven't actually bought the domain yet, so the endpoints will not line up :(
 
 > For when you want to lose all your friends.
