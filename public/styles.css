@@ -29,8 +29,9 @@ a.no-underline:not(:hover) {
   text-decoration: none;
 }
 
-.faded {
+.faded-command {
   color: var(--pico-muted-color);
+  font-family: var(--pico-font-family-monospace);
 }
 
 .commit-area {

@@ -7,9 +7,9 @@ const Generator = ({ message, permalink }: Record<string, string>, route: ListTy
       <section>
         <article>
           <p>
-            <span class="faded">git commit -m "</span>
+            <span class="faded-command">git commit -m "</span>
             <code class="commit">{message}</code>
-            <span class="faded">"</span>
+            <span class="faded-command">"</span>
           </p>
           <p>
             <a href={`/p/${permalink}`} class="secondary">
