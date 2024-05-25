@@ -1,5 +1,8 @@
 # Friendless Commits
 
+> [!INFORMATION]  
+> I haven't actually bought the domain yet, so the endpoints will not line up :(
+
 > For when you want to lose all your friends.
 
 A website and CLI endpoint to get questionable commit messages. Visit the site or add `?text` for a `curl` URL.
