@@ -37,6 +37,6 @@ const app = new Elysia()
 
     return App(Generator({ message, permalink }));
   })
-  .listen(1625);
+  .listen(3000);
 
 console.log(`🦊 Elysia is running at ${app.server?.hostname}:${app.server?.port}`);
