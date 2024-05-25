@@ -26,7 +26,7 @@ const app = new Elysia()
       return new NotFoundError();
     }
 
-    return App(Generator({ message, permalink }, mode));
+    return App(Generator({ message, permalink }, mode as ListType));
   })
   .get("/p/:hash", ({ params: { hash } }) => {
     const permalink = hash;
