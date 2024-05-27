@@ -52,9 +52,13 @@ the `.env.local` file or in the `docker-compose.yml` file.
 
 ## Development
 
-This project uses the bun JS runtime.
+This project uses the bun JS runtime. First, install dependencies:
 
-To start the development server run:
+```bash
+bun install
+```
+
+Then, to start the development server run:
 
 ```bash
 bun run dev
