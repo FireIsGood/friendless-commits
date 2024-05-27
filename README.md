@@ -23,6 +23,17 @@ Heavily inspired by [What The Commit](https://github.com/ngerakines/commitment).
 
 ## Running Locally
 
+### Via bun
+
+If you have bun installed, you can simply run:
+
+```bash
+bun install
+bun run serve
+```
+
+### Via a docker container
+
 First, copy the `example.docker-compose.yml` and `example.env.local` files to the actual file names:
 
 ```bash
