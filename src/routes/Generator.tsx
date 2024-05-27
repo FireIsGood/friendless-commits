@@ -1,4 +1,4 @@
-import { ListType } from "@/scripts/util";
+import { BASE_URL, ListType } from "@/scripts/util";
 
 const Generator = ({ message, permalink }: Record<string, string>, route: ListType = "all") => {
   return (
@@ -21,7 +21,10 @@ const Generator = ({ message, permalink }: Record<string, string>, route: ListTy
       <section>
         <p>Need it as text only for a script?</p>
         <pre>
-          <code>http://friendlesscommits.dev/{route}?text</code>
+          <code>
+            {BASE_URL}
+            {route}?text
+          </code>
         </pre>
         <p>Need a specific case?</p>
         <ul>

@@ -23,15 +23,21 @@ Heavily inspired by [What The Commit](https://github.com/ngerakines/commitment).
 
 ## Running Locally
 
+First, copy the `example.docker-compose.yml` and `example.env.local` files to the actual file names:
+
+```bash
+cp ./example.docker-compose.yml ./docker-compose.yml
+cp ./example.env.local ./env.local
+```
+
 To launch the docker container, run:
 
 ```bash
 docker-compose up
 ```
 
-Or really whatever you want to do with docker. I'm no expert...
-
-The server runs on port `3000` by default.
+The server runs on port `3000` by default with the base URL `https://friendlesscommits.dev/`. You can change these in
+the `.env.local` file or in the `docker-compose.yml` file.
 
 ## Development
 

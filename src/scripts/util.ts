@@ -28,3 +28,5 @@ export function messageToHash(message: string): string | null {
 export function hashToMessage(hash: string): string | null {
   return Object.keys(allMessages).find((key) => allMessages[key] === hash) ?? null;
 }
+
+export const BASE_URL = process.env.BASE_URL;
