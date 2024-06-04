@@ -1,4 +1,4 @@
-const safe = [
+const safe: string[] = [
   //
   "small changes",
   "fixed some stuff",
@@ -27,7 +27,7 @@ const safe = [
   "-m",
   "--help",
 ];
-const unsafe = [
+const unsafe: string[] = [
   //
   "Fuck it, we ball",
   "What the fuck am I looking at",
