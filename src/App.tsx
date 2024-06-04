@@ -21,7 +21,7 @@ const App = (slot: JSX.Element) => {
         <header class="container-fluid">
           <h1 class="logo">Friendless Commits</h1>
           <p>
-            <a href="https://fireis.dev/" class="no-underline">
+            <a href="https://github.com/FireIsGood/friendless-commits" class="no-underline">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="1em"
