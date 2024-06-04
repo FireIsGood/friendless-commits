@@ -26,6 +26,10 @@ const safe: string[] = [
   ".",
   "-m",
   "--help",
+  "i forgot",
+  "TODO: Rebase this",
+  "undoing my idiot coworker's changes",
+  "34 changes, 4 found",
 ];
 const unsafe: string[] = [
   //
