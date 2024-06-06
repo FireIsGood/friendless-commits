@@ -1,9 +1,9 @@
-import { Elysia, NotFoundError } from "elysia";
+import { type ListType, hashToMessage, messageToHash, randomMessage } from "@/scripts/util";
 import { html } from "@elysiajs/html";
 import { staticPlugin } from "@elysiajs/static";
+import { Elysia, NotFoundError } from "elysia";
 import App from "./App";
 import Generator from "./routes/Generator";
-import { ListType, hashToMessage, messageToHash, randomMessage } from "@/scripts/util";
 
 const app = new Elysia()
   .use(html())

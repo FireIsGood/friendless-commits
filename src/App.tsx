@@ -23,6 +23,8 @@ const App = (slot: JSX.Element) => {
           <p>
             <a href="https://github.com/FireIsGood/friendless-commits" class="no-underline">
               <svg
+                role="img"
+                aria-label="github logo"
                 xmlns="http://www.w3.org/2000/svg"
                 height="1em"
                 viewBox="0 0 24 24"

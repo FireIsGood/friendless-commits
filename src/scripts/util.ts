@@ -12,11 +12,11 @@ export function randomMessage(type: ListType): string {
 function preprocessList(list: Record<string, string[]>): Record<string, string> {
   const output: Record<string, string> = {};
 
-  Object.entries(list).forEach(([_, listItem]) => {
-    listItem.forEach((message) => {
+  for (const [_, listItem] of Object.entries(list)) {
+    for (const message of listItem) {
       output[message] = Bun.hash(message).toString();
-    });
-  });
+    }
+  }
 
   return output;
 }
